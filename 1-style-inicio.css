@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(117,117,117);
+    background: radial-gradient(circle, rgba(117,117,117,1) 23%, rgba(81,45,168,1) 100%)
+}
+div nav ol{
+    background-color: #512da8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 15px;
+   list-style: none;
+   
+    
+}
+
+ ol li a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    color: red;
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-family:Verdana;
+}
