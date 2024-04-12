@@ -17,7 +17,7 @@ body {
     background: rgb(117,117,117);
     background: radial-gradient(circle, rgba(117,117,117,1) 23%, rgba(81,45,168,1) 100%)
 }
-div nav ol{
+div nav ol {
     background-color: #512da8;
     display: flex;
     flex-direction: row;
@@ -70,5 +70,30 @@ img {
     text-decoration: none;
     font-size: 40px;
     font-family: Sunflower;
+
+}
+
+.menu-mobile {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    nav ol li{
+        display: none;
+         
+    }
+    .container {
+        margin: 10px;
+        
+    }
+
+    .menu-mobile {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    h3 {
+        margin-left: 40px;
+    }
 
 }
