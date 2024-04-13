@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Students;
+    src: url(./fonts/TheStudentsTeacher-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sunflowers;
+    src: url(./fonts/Sunflower.otf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/deep-purple-curve-background-premium-vector.jpg);
+}
+
+
+div nav ol {
+    background-color: #512da8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 15px;
+    list-style: none;
+   
+    
+}
+
+ ol li a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #512da8;
+    align-items:center;
+    margin-top: 30px;
+    margin: 20px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Students;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Sunflowers;
+    border: 1px solid #512da8 ;
+    margin-top: 10px;
+}
+
+
+
+@media(max-width: 800px) {
+    nav ol li{
+        display: none;
+         
+    }
+    .menu-mobile {
+        display: flex;
+        margin-left: 10px;
+    }
+}
