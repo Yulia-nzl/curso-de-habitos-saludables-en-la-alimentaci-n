@@ -6,6 +6,7 @@ h1{
     text-align: center;
     margin: 70px;
     font-size: 40px;
+    font-family: student;
 }
 p{
     font-size: 20px;
@@ -62,4 +63,17 @@ div nav ol {
           display: none;
            
       }
+    }
+    #IMG-11{
+        width: 600px;
+        height: 400px;
+        margin-left: 25%;
+    }
+    #IMG-4{
+        margin-left: 5%;
+    }
+    #IMG-12{
+        width: 800px;
+        height: 550px;
+        margin-left: 19%;
     }

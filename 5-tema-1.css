@@ -6,6 +6,7 @@ h1{
     text-align: center;
     margin: 70px;
     font-size: 40px;
+    font-family: students;
 }
 p{
     font-size: 20px;
@@ -63,4 +64,21 @@ div nav ol {
           display: none;
            
       }
+    }
+    
+    #IMG-7{
+        width: 600px;
+        height: 400px;
+        margin-left: 25%;
+    }
+    #IMG-2{
+        margin-left: 25%;
+    }
+    #IMG-8{
+        margin-left: 20%;
+    }
+
+    @font-face {
+        font-family: students;
+        src: url(C:\Users\34654\Documents\GitHub\curso-de-habitos-saludables-en-la-alimentaci-n\sunflower_7\Sunflower.otf);
     }

@@ -67,3 +67,10 @@ div nav ol {
            
       }
     }
+    .pregunta{font-family: students;
+
+    }
+     @font-face {
+        font-family: students;
+        src: url(C:\Users\34654\Desktop\fonts\the_students_teacher\students.ttf);
+     }

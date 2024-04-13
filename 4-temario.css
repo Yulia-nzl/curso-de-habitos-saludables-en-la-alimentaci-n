@@ -63,4 +63,16 @@ div nav ol {
            
       }
     }
+   
+@font-face{
+    font-family: students;
+src:url(sunflower_7/Sunflower.otf)
+}
 
+h1{
+    font-family: students;
+}
+#IMG-1{
+    width: 500px;
+    height: 350px;
+}

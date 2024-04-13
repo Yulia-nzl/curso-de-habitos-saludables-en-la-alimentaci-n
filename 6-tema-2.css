@@ -2,10 +2,17 @@ body{
     width: 100%;
     background-color:#607d88 ;
 }
+@font-face{
+    font-family: students;
+    src: url(C:\Users\34654\Documents\GitHub\curso-de-habitos-saludables-en-la-alimentaci-n\the_students_teacher\students.ttf);
+    
+}
 h1{
     text-align: center;
     margin: 70px;
     font-size: 40px;
+    font-family: students;
+
 }
 p{
     font-size: 20px;
@@ -62,4 +69,20 @@ div nav ol {
           display: none;
            
       }
+    }
+    #IMG-10{
+        width: 750px;
+        height: 450px;
+        margin-left: 22%;
+
+    }
+    #IMG-3{
+        width: 700px;
+        height: 400px;
+        margin-left: 25%;
+    }
+    #IMG-6{
+        width: 650px;
+        height: 500px;
+        margin-left: 25%;
     }
