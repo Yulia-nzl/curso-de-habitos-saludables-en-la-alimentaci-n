@@ -19,6 +19,8 @@ body{
     background-image: url(./assets/deep-purple-curve-background-premium-vector.jpg);
 }
 
+/* barra nav */
+
 div nav ol {
     background-color: #512da8;
     display: flex;
@@ -42,6 +44,9 @@ div nav ol {
 .menu-mobile {
     display: none;
 }
+
+/* fin barra nav */
+
 
 #conteItemsCarrusel {
     

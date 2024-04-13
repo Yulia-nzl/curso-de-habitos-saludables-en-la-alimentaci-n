@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Students;
+    src: url(./fonts/TheStudentsTeacher-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sunflowers;
+    src: url(./fonts/Sunflower.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/HD-wallpaper-gradient-clean-colors-purple-screen-simple-white.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div nav ol {
+    background-color: #512da8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 15px;
+    list-style: none;
+   
+    
+}
+
+ ol li a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+.menu-mobile {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    nav ol li{
+        display: none;   
+    }
+    .menu-mobile {
+        display: flex;
+        margin-left: 10px;
+    }
+    div .container {
+        
+        margin: 80px 1px;
+    }
+
+} 
+
+
+.container {
+
+    margin: 200px 500px;
+    align-content: center;
+    width: 700px;
+    box-shadow: 6px 13px 37px black;
+    background-color: aliceblue;
+    
+   }
+
+
+section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family:Students;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+section a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font-family: Sunflowers;
+    color: rgb(221, 220, 220);
+    background-color: #383535;
+    border-bottom: 2px solid white;
+}
+
+section:target p {
+    max-height: 150px;
+    padding: 30px;
+}
+
+a i {
+    padding-right: 10px;
+}

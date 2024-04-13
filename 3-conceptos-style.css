@@ -4,21 +4,22 @@
 }
 
 @font-face {
-    font-family: Sunflower;
+    font-family: Sunflowers;
     src: url(./fonts/Sunflower.otf);
 }
+
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background: rgb(117,117,117);
-    background: radial-gradient(circle, rgba(117,117,117,1) 23%, rgba(81,45,168,1) 100%) 
+    background-image: url(./assets/deep-purple-curve-background-premium-vector.jpg);
 }
 
-/*barra nav */
 
 div nav ol {
     background-color: #512da8;
@@ -43,48 +44,38 @@ div nav ol {
 img {
     margin-top: 30px;
     margin-bottom: 40px;
-}
-
-
-/* fin barra nav */
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-    box-shadow: 10px 15px 100px 15px;
-    padding: 10px;
     border-radius: 10px;
-    border: black;
-    margin: 50px;
-    font-family: Students;
-    font-size: large;
-}
-
-
-.container a {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    color: white;
-    background-color: #522da893;
-    margin-top: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: Sunflower;
-
 }
 
 .menu-mobile {
     display: none;
 }
 
-/* responsivo */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #512da8;
+    align-items:center;
+    margin-top: 30px;
+    margin: 20px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Students;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Sunflowers;
+    border: 1px solid #512da8 ;
+    margin-top: 10px;
+}
+
 
 
 @media(max-width: 800px) {
@@ -92,18 +83,8 @@ img {
         display: none;
          
     }
-    .container {
-        margin: 10px;
-        
-    }
-
     .menu-mobile {
         display: flex;
         margin-left: 10px;
     }
-
-    h3 {
-        margin-left: 40px;
-    }
-
 }
