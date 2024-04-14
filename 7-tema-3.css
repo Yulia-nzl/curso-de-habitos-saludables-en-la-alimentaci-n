@@ -26,7 +26,7 @@ button:hover{
     color: aquamarine;
     background-color: rgb(112, 10, 207);
 }
-a{font-size: 30px;
+button a{font-size: 30px;
     text-decoration: none;
     color: white;
 }
@@ -76,4 +76,8 @@ div nav ol {
         width: 800px;
         height: 550px;
         margin-left: 19%;
+    }
+
+    * {
+        margin: 0;
     }
