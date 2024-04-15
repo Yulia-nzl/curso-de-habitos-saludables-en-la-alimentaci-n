@@ -48,35 +48,23 @@ div nav ol {
 }
 
 
-
-
-@media(max-width: 800px) { 
-    .menu-mobile {
-          display: flex;
-          margin-left: 10px;
-          margin: 10px;
-      }
-    div nav ol li{
-          display: none;
-           
-      }
-    }
-
 h1 {
     display: flex;
     justify-content: center;
     border: 2px solid black;
     font-family: Students;
     padding: 20px;
+    margin:20px 50px
 }
 
 p {
     font-family: Students;
     font-size: large;
+    padding: 10px;
 }
 
 .container {
-    margin-top: 20px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -84,6 +72,8 @@ p {
     border: 2px solid black;
     padding-top: 30px;
     margin-top: 70px;
+    margin:20px 50px;
+    padding-bottom: 20px;
 }
 
 .certificado {
@@ -104,6 +94,24 @@ i {
     color: #512da8;
 }
 
+
+
+@media(max-width: 800px) { 
+    .menu-mobile {
+          display: flex;
+          margin-left: 10px;
+          margin: 10px;
+      }
+    div nav ol li{
+          display: none;
+           
+      }
+    body {
+        background-size: cover;
+    }
+
+
+    }
 
 
 

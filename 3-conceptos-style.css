@@ -58,7 +58,7 @@ img {
     border: 2px solid #512da8;
     align-items:center;
     margin-top: 30px;
-    margin: 20px;
+    margin: 20px 50px;
 }
 
 p{
@@ -66,6 +66,7 @@ p{
     justify-content: center;
     align-items: center;
     font-family: Students;
+    margin:5px 20px;
 }
 
 h1 {
@@ -74,8 +75,10 @@ h1 {
     font-family: Sunflowers;
     border: 1px solid #512da8 ;
     margin-top: 10px;
+    margin:10px 50px;
 }
 
+/* Responsivo */
 
 
 @media(max-width: 800px) {
@@ -86,5 +89,19 @@ h1 {
     .menu-mobile {
         display: flex;
         margin-left: 10px;
+    }
+
+    .container img {
+        width: 200px;
+        height: 190px;
+    }
+
+    .menu-mobile {
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        margin:20px 30px;
     }
 }
