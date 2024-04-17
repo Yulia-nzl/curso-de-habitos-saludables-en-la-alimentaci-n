@@ -7,6 +7,7 @@ h1{
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 40px;
+    font-family: students;
 }
 p{
     font-size: 25px;
@@ -27,7 +28,6 @@ button a{
 }
 button:hover{
     background-color: #3e11a7;
-   
 }
 div nav ol {
     background-color: #512da8;
@@ -68,15 +68,18 @@ div nav ol {
     font-family: students;
 src:url(sunflower_7/Sunflower.otf)
 }
-
-h1{
-    font-family: students;
-}
 #IMG-1{
     width: 500px;
     height: 350px;
+    float: right;
 }
 
 * {
     margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

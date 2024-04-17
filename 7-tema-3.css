@@ -1,10 +1,12 @@
 body{
     width: 100%;
     background-color:#607d88 ;
+    text-align: center;
 }
 h1{
     text-align: center;
-    margin: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     font-size: 40px;
     font-family: student;
 }
@@ -13,14 +15,12 @@ p{
 }
 button{
 
-   width: 150px;
-   height: 75px;
+ width: 150px;
+ height: 75px;
  background-color: blueviolet;
-
-   border-radius: 25%;
+ border-radius: 25%;
  margin-top: 50px;
  margin-bottom: 50px;
- margin-left: 42%;
 }
 button:hover{
     color: aquamarine;
@@ -65,19 +65,11 @@ div nav ol {
       }
     }
     #IMG-11{
-        width: 600px;
-        height: 400px;
-        margin-left: 25%;
+        width: 300px;
+        height: 250px;
+       float: inline-end;
     }
-    #IMG-4{
-        margin-left: 5%;
-    }
-    #IMG-12{
-        width: 800px;
-        height: 550px;
-        margin-left: 19%;
-    }
-
-    * {
+   * {
         margin: 0;
+        padding: 0;
     }
