@@ -46,21 +46,6 @@ div nav ol {
     display: none;
 }
 
-@media(max-width: 800px) {
-    nav ol li{
-        display: none;   
-    }
-    .menu-mobile {
-        display: flex;
-        margin-left: 10px;
-    }
-    div .container {
-        
-        margin: 80px 1px;
-    }
-
-} 
-
 
 .container {
 
@@ -101,3 +86,25 @@ section:target p {
 a i {
     padding-right: 10px;
 }
+
+
+
+@media(max-width: 800px) {
+    div nav ol li {
+        display: none;   
+    }
+
+    .menu-mobile {
+        display: flex;
+        margin-left: 10px;
+    }
+    div .container {
+        margin: 120px 5px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+} 
