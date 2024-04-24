@@ -53,39 +53,31 @@ div nav ol {
     align-content: center;
     width: 700px;
     box-shadow: 6px 13px 37px black;
-    background-color: aliceblue;
+    background-color:transparent;
+    
     
    }
 
+   details {
+    margin: 10px;
+    background-color: #512da8;
+    border-radius: 5px;
+    padding: 2px;
+   }
 
-section p {
-    overflow: hidden;
-    max-height: 0;
-    text-align: justify;
-    font-family:Students;
-    font-size: large;
-    background-color: aliceblue;
-}
+   summary {
+    margin: 10px;
+    color:rgb(247, 238, 238);
+    background-color: transparent;
+    
+   }
 
-section a {
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    padding: 10px;
-    font-family: Sunflowers;
-    color: rgb(221, 220, 220);
-    background-color: #383535;
-    border-bottom: 2px solid white;
-}
+   p {
+    padding: 2px;
+    color: black;
+    background-color: white;
 
-section:target p {
-    max-height: 150px;
-    padding: 30px;
-}
-
-a i {
-    padding-right: 10px;
-}
+   }
 
 
 
@@ -97,14 +89,19 @@ a i {
     .menu-mobile {
         display: flex;
         margin-left: 10px;
+        margin-top: 10px;
     }
     div .container {
-        margin: 120px 5px;
+        max-width: 80%;
+        margin-left: 30px;
+
     }
 
-    .nav {
+    nav {
         display: none;
     }
 
+    
+    }
 
-} 
+    

@@ -88,7 +88,7 @@ h1 {
     }
     .menu-mobile {
         display: flex;
-        margin-left: 10px;
+        margin-left: 10px; 
     }
 
     .container img {
@@ -96,12 +96,12 @@ h1 {
         height: 190px;
     }
 
-    .menu-mobile {
-        margin-top:5px;
-        margin-bottom: 5px;
+    nav {
+        display: none;
     }
 
     h2 {
         margin:20px 30px;
     }
-}
+    
+    }

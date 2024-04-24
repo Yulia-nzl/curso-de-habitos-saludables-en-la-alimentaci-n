@@ -151,20 +151,20 @@ p {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        position: relative;
     }
-    p {
-        display: flex;
-        justify-content: flex-start;
-    }
-
+  
     .contain-ejercicio {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
     }
     .menu-mobile {
         display: flex;
+        margin-top: 20px;
         margin-left: 10px;
-        margin: 10px;
     }
+        
+
     div nav ol li{
         display: none;
          
@@ -173,5 +173,15 @@ p {
     .flechasCarrusel {
         margin: 2px;
         padding: 2px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #itemCarrusel-1 #itemCarrusel-2 #itemCarrusel-3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
