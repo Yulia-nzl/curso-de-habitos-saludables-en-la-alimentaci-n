@@ -12,7 +12,7 @@ h1{
 p{
     font-size: 20px;
 }
-button{
+#tema-2{
 
    width: 150px;
    height: 75px;
@@ -21,52 +21,79 @@ button{
  margin-top: 50px;
  margin-bottom: 50px;
 }
-button:hover{
+#tema-2:hover{
     color: aquamarine;
     background-color: rgb(112, 10, 207);
 }
-button a{
+#tema-2 a{
 
     font-size: 30px;
     text-decoration: none;
     color: white;
 
 }
-div nav ol {
-    background-color: #512da8;
+header{
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: flex-start;
-    padding: 15px;
-    list-style: none;
-   
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:rgb(81, 45, 168) ;
+    font-family: students;
 }
-
- ol li a {
+.nav-list{
     display: flex;
-    color: azure;
+    list-style-type: none;
+    gap: 4rem;
+}
+.nav-list li a{
     text-decoration: none;
-    flex-wrap: wrap;
-    
-}
+    color:#fff ;
 
-.menu-mobile {
-    display: none;
 }
-@media(max-width: 800px) {
-    .menu-mobile {
-          display: flex;
-          margin-left: 10px;
-          margin: 10px;
-      }
-    div nav ol li{
-          display: none;
-           
-      }
+#abrir
+#cerrar
+{
+    display: none;
+    width: 20px;
+    height: 20px;
+} 
+@media screen and(max-width:500px) {
+ .abrir-menu
+ .cerrar-menu{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #512da8;
+        padding: 2rem;
+        bottom: 0;
+        box-shadow: 0 0 0 100vmax rgba(81, 45, 168, .5);
     }
-    #IMG-2{
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+
+    }
+    .nav-list li a {
+        color: #fff;
+    }
+}
+    #IMG-2 {
         float: left;
         width: 350px;
         height: 350px;
@@ -84,7 +111,7 @@ div nav ol {
         padding: 0;
         box-sizing: border-box;
     }
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content:center;

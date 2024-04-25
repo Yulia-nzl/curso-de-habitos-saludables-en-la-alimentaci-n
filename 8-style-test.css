@@ -1,4 +1,8 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+ }
+ body{
     width: 100%;
     background: rgb(81,45,168);
 background: -moz-linear-gradient(90deg, rgba(81,45,168,1) 5%, rgba(96,125,136,1) 30%, rgba(117,117,117,1) 50%, rgba(96,125,136,1) 70%, rgba(81,45,168,1) 95%);
@@ -7,28 +11,45 @@ background: linear-gradient(90deg, rgba(81,45,168,1) 5%, rgba(96,125,136,1) 30%,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#512da8",endColorstr="#512da8",GradientType=1);
 text-align: center;
 }
- .enviar{
-    width: 100px;
-    height: 45px;
-    border-radius: 25%;
-    margin-bottom: 50px;
-    font-size: 20px;
-    background-color: rgb(157, 70, 238);
-    text-decoration: none;
-}
-.enviar:hover{
-    background-color:#512da8;
-    color: wheat;
-}
-.question{
-    margin-top: 50px;
-    color: black;
-}
+
 h1{
-    margin-top: 50px;
+    margin: 50px;
 }
 .pregunta,.respuestas {
     margin-bottom: 15px;
+
+}
+    .pregunta{
+        font-family: students;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .respuestas{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+  @media(max-width: 800px){.container{
+    text-align: left;
+    flex-wrap: wrap;
+ }
+}
+.enviar{
+   width: 100px;
+   height: 45px;
+   border-radius: 25%;
+   margin-bottom: 50px;
+   font-size: 20px;
+   background-color: rgb(157, 70, 238);
+   text-decoration: none;
+}
+.enviar:hover{
+   background-color:#512da8;
+   color: wheat;
 }
 div nav ol {
     background-color: #512da8;
@@ -38,11 +59,8 @@ div nav ol {
     align-items: flex-start;
     padding: 15px;
     list-style: none;
-   
-    
 }
-
- ol li a {
+ol li a {
     display: flex;
     color: azure;
     text-decoration: none;
@@ -64,21 +82,7 @@ div nav ol {
            
       }
     }
-    .pregunta{font-family: students;
-
-    }
      @font-face {
         font-family: students;
         src: url(C:\Users\34654\Desktop\fonts\the_students_teacher\students.ttf);
      }
-
-     * {
-        margin: 0;
-        padding: 0;
-     }
-     @media(max-width: 800px){.container{
-        text-align: left;
-        flex-wrap: wrap;
-     }
-    }
-  
