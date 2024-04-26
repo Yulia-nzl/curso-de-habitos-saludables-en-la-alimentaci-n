@@ -17,6 +17,9 @@
 
 body{
     background-image: url(./assets/deep-purple-curve-background-premium-vector.jpg);
+    
+
+
 }
 
 /* barra nav */
@@ -29,6 +32,7 @@ div nav ol {
     align-items: flex-start;
     padding: 15px;
     list-style: none;
+    
    
     
 }
@@ -52,16 +56,22 @@ div nav ol {
     
     height: 200px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .itemCarrusel {
     
     height: 200px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tarjetaCarrusel {
     height: 100%;
+    display: flex;
+
 }
 
 .flechasCarrusel {
@@ -144,19 +154,25 @@ p {
     
 }
 
+.nav i {
+    color:white;
+    display: none;
+    
+}
+
 /* Responsivo */
 
 @media(max-width: 800px) {
     #conteItemsCarrusel {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
+        width: 100%;
+        flex-wrap:wrap ;
     }
   
     .contain-ejercicio {
         display: flex;
         flex-wrap: wrap;
+        height: 30px;
     }
     .menu-mobile {
         display: flex;
@@ -173,15 +189,55 @@ p {
     .flechasCarrusel {
         margin: 2px;
         padding: 2px;
+        display: flex;
     }
 
     nav {
         display: none;
     }
-
-    #itemCarrusel-1 #itemCarrusel-2 #itemCarrusel-3 {
+    
+    .contain-ejercicio {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-wrap:wrap ;
+        width: 8px;
+        height: 8px;
     }
+
+    .nav {
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position:absolute;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background-color: #512da8;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax #1c133280;
+
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+       
+    }
+
+    .nav-list li {
+        padding-bottom: 3px;
+    }
+    
+    .nav i {
+        display: flex;
+    }
+   
+
 }
