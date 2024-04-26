@@ -106,4 +106,8 @@ img {
         margin-left: 40px;
     }
 
+    nav {
+        display: none;
+    }
+
 }
