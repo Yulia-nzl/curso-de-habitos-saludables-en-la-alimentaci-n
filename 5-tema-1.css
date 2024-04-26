@@ -50,48 +50,19 @@ header{
     color:#fff ;
 
 }
-#abrir
-#cerrar
-{
+#abrir{
     display: none;
-    width: 20px;
-    height: 20px;
-} 
-@media screen and(max-width:500px) {
- .abrir-menu
- .cerrar-menu{
-    display: block;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-  }
-    .nav {
-        opacity: 0;
-        visibility: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        gap: 1rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: #512da8;
-        padding: 2rem;
-        bottom: 0;
-        box-shadow: 0 0 0 100vmax rgba(81, 45, 168, .5);
-    }
-    .nav.visible {
-        opacity: 1;
-        visibility: visible;
-    }
-    .nav-list {
-        flex-direction: column;
-        align-items: end;
+}
 
+@media screen and (max-width:800px) {
+    
+  header{
+        display: none;
     }
-    .nav-list li a {
-        color: #fff;
+    #abrir{
+       visibility: visible!important;
     }
+    
 }
     #IMG-2 {
         float: left;
