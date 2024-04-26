@@ -12,27 +12,26 @@ h1{
 p{
     font-size: 20px;
 }
-button{
+#tema-2{
 
    width: 150px;
    height: 75px;
- background-color: blueviolet;
+ background-color: #512da8;
  border-radius: 25%;
  margin-top: 50px;
  margin-bottom: 50px;
 }
-button:hover{
+#tema-2:hover{
     color: aquamarine;
-    background-color: rgb(112, 10, 207);
+    background-color: blueviolet;
 }
-button a{
+#tema-2 a{
 
     font-size: 30px;
     text-decoration: none;
     color: white;
 
-}
-div nav ol {
+}div nav ol {
     background-color: #512da8;
     display: flex;
     flex-direction: row;
@@ -52,27 +51,33 @@ div nav ol {
     
 }
 
+img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
 .menu-mobile {
     display: none;
 }
+
 @media(max-width: 800px) {
+    nav ol li{
+        display: none;
+         
+    }
     .menu-mobile {
-          display: flex;
-          margin-left: 10px;
-          margin: 10px;
-      }
-    div nav ol li{
-          display: none;
-           
-      }
+        visibility: visible;
+        display: flex;
+        margin-left: 10px; 
     }
-    #IMG-2{
-        float: left;
-        width: 350px;
-        height: 350px;
-        margin-left: 15px;
-        margin-right: 15px;
+
+    nav {
+        display: none;
     }
+    
+    }
+
     
     @font-face {
         font-family: students;
@@ -84,10 +89,10 @@ div nav ol {
         padding: 0;
         box-sizing: border-box;
     }
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         justify-content:center;
         flex-direction: column;
+        align-items: center;
     }
-
