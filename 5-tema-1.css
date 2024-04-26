@@ -16,14 +16,14 @@ p{
 
    width: 150px;
    height: 75px;
- background-color: blueviolet;
+ background-color: #512da8;
  border-radius: 25%;
  margin-top: 50px;
  margin-bottom: 50px;
 }
 #tema-2:hover{
     color: aquamarine;
-    background-color: rgb(112, 10, 207);
+    background-color: blueviolet;
 }
 #tema-2 a{
 
@@ -31,46 +31,53 @@ p{
     text-decoration: none;
     color: white;
 
-}
-header{
+}div nav ol {
+    background-color: #512da8;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color:rgb(81, 45, 168) ;
-    font-family: students;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 15px;
+    list-style: none;
+   
+    
 }
-.nav-list{
-    display: flex;
-    list-style-type: none;
-    gap: 4rem;
-}
-.nav-list li a{
-    text-decoration: none;
-    color:#fff ;
 
+ ol li a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
 }
-#abrir{
+
+img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.menu-mobile {
     display: none;
 }
 
-@media screen and (max-width:800px) {
-    
-  header{
+@media(max-width: 800px) {
+    nav ol li{
+        display: none;
+         
+    }
+    .menu-mobile {
+        visibility: visible;
+        display: flex;
+        margin-left: 10px; 
+    }
+
+    nav {
         display: none;
     }
-    #abrir{
-       visibility: visible!important;
-    }
     
-}
-    #IMG-2 {
-        float: left;
-        width: 350px;
-        height: 350px;
-        margin-left: 15px;
-        margin-right: 15px;
     }
+
     
     @font-face {
         font-family: students;
@@ -87,5 +94,5 @@ header{
         flex-wrap: wrap;
         justify-content:center;
         flex-direction: column;
+        align-items: center;
     }
-
