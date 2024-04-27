@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
  }
  body{
     width: 100%;
@@ -10,69 +11,6 @@ background: -webkit-linear-gradient(90deg, rgba(81,45,168,1) 5%, rgba(96,125,136
 background: linear-gradient(90deg, rgba(81,45,168,1) 5%, rgba(96,125,136,1) 30%, rgba(117,117,117,1) 50%, rgba(96,125,136,1) 70%, rgba(81,45,168,1) 95%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#512da8",endColorstr="#512da8",GradientType=1);
 text-align: center;
-}
-
-h1{
-    margin: 50px;
-}
-.pregunta,.respuestas {
-    margin-bottom: 15px;
-
-}
-    .pregunta{
-        font-family: students;
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .respuestas{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-      .respuesta {
-        width: 100px;
-        height: 20px;
-        display: flex;
-        justify-content: flex-start;
-        align-items:center;
-        gap: 5px;
-      }
-      
-  @media(max-width: 800px){.container{
-    text-align: left;
-    flex-wrap: wrap;
- }
-}
-.enviar {
-   width: 100px;
-   height: 45px;
-   border-radius: 25%;
-   margin-bottom: 50px;
-   margin-top: 60px;
-   font-size: 20px;
-   background-color: #9d46ee;
-   text-decoration: none;
-   
-}
-.enviar a{ 
-    text-decoration: none;
-    
-}
-.enviar a:hover{
-    background-color:#512da8;
-    color: wheat;
-}
-
-.enviar:hover{
-   background-color:#512da8;
-   color: wheat;
 }
 div nav ol {
     background-color: #512da8;
@@ -104,7 +42,69 @@ ol li a {
           display: none;
            
       }
+      nav{
+        display: none;
+      }
     }
+h1{
+    margin: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pregunta,.respuestas {
+    margin-bottom: 15px;
+
+}
+    .pregunta{
+        font-family: students;
+    }
+   
+    .respuestas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .respuesta {
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+       margin-top: 10px;
+      }
+      
+.enviar {
+   width: 100px;
+   height: 45px;
+   border-radius: 25%;
+   margin-bottom: 50px;
+   margin-top: 60px;
+   font-size: 20px;
+   background-color: #9d46ee;
+   text-decoration: none;
+   
+}
+.enviar a{ 
+    text-decoration: none;
+    
+}
+.enviar a:hover{
+    background-color:#512da8;
+    color: wheat;
+}
+
+.enviar:hover{
+   background-color:#512da8;
+   color: wheat;
+}
+
      @font-face {
         font-family: students;
         src: url(C:\Users\34654\Desktop\fonts\the_students_teacher\students.ttf);

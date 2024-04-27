@@ -1,34 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     width: 100%;
     background-color:#607d88 ;
     text-align: center;
-}
-h1{
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    font-size: 40px;
-    font-family: student;
-}
-p{
-    font-size: 20px;
-}
-button{
-
- width: 150px;
- height: 75px;
- background-color: blueviolet;
- border-radius: 25%;
- margin-top: 50px;
- margin-bottom: 50px;
-}
-button:hover{
-    color: aquamarine;
-    background-color: rgb(112, 10, 207);
-}
-button a{font-size: 30px;
-    text-decoration: none;
-    color: white;
 }
 div nav ol {
     background-color: #512da8;
@@ -54,22 +33,57 @@ div nav ol {
     display: none;
 }
 @media(max-width: 800px) {
-    .menu-mobile {
-          display: flex;
-          margin-left: 10px;
-          margin: 10px;
-      }
-    div nav ol li{
-          display: none;
-           
-      }
-    }
-    #IMG-11{
-        width: 300px;
-        height: 250px;
-       float: inline-end;
-    }
-   * {
-        margin: 0;
-        padding: 0;
-    }
+.menu-mobile {
+    display: flex;
+    margin-left: 10px;
+    margin: 10px;
+}
+div nav ol li{
+    display: none;
+     
+}
+nav{
+    display: none;
+}
+}
+h1{
+    text-align: center;
+    margin: 70px;
+    font-size: 40px;
+    font-family: students;
+}
+p{
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+
+   width: 150px;
+   height: 75px;
+ background-color: #512da8;
+ border-radius: 25%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+button:hover{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+button a{
+
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+@font-face{
+    font-family: students;
+    src: url(C:\Users\34654\Documents\GitHub\curso-de-habitos-saludables-en-la-alimentaci-n\the_students_teacher\students.ttf);
+    
+}

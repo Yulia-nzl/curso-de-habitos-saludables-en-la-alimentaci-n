@@ -1,33 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     width: 100%;
     background-color: #607d88;
     text-align: center;
-}
-h1{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-family: students;
-}
-p{
-    font-size: 25px;
-}
-button{
-    width: 150px;
-    height: 70px;
-    background-color: #512da8;
-    border-radius: 25%;
-    margin-top: 100px;
-    margin: 50px;
-   
-}
-button a{
-    color: wheat;
-    font-size: 30px;
-    text-decoration: none;
-}
-button:hover{
-    background-color: #3e11a7;
 }
 div nav ol {
     background-color: #512da8;
@@ -62,11 +41,43 @@ div nav ol {
           display: none;
            
       }
+      nav{
+        display: none;
+      }
     }
    
-@font-face{
+h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
     font-family: students;
-src:url(sunflower_7/Sunflower.otf)
+}
+p{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button{
+    width: 150px;
+    height: 70px;
+    background-color: #512da8;
+    border-radius: 25%;
+    margin-top: 100px;
+    margin: 50px;
+   
+}
+button a{
+    color: wheat;
+    font-size: 30px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #3e11a7;
 }
 #IMG-1{
     width: 500px;
@@ -74,12 +85,7 @@ src:url(sunflower_7/Sunflower.otf)
     float: right;
 }
 
-* {
-    margin: 0;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+@font-face{
+    font-family: students;
+src:url(sunflower_7/Sunflower.otf)
 }
