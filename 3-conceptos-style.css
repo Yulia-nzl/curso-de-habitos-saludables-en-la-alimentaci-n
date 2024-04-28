@@ -78,16 +78,26 @@ h1 {
     margin:10px 50px;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.nav i {
+    color:white;
+    display: none;
+   
+    
+    
+}
+
 /* Responsivo */
 
 
 @media(max-width: 800px) {
-    nav ol li{
-        display: none;
-         
-    }
+    
     .menu-mobile {
-        display: flex;
+        display: block;
         margin-left: 10px; 
     }
 
@@ -96,10 +106,43 @@ h1 {
         height: 190px;
     }
 
-    nav {
-        display: none;
+    .nav {
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position:absolute;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background-color: #512da8;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax #1c133280;
+
     }
 
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+       
+    }
+
+    .nav-list li {
+        padding-bottom: 3px;
+    }
+    
+    .nav i {
+        display: flex;
+        
+    }
+    
     h2 {
         margin:20px 30px;
     }

@@ -179,12 +179,6 @@ p {
         margin-top: 20px;
         margin-left: 10px;
     }
-        
-
-    div nav ol li{
-        display: none;
-         
-    }
 
     .flechasCarrusel {
         margin: 2px;
@@ -217,12 +211,14 @@ p {
         background-color: #512da8;
         padding: 1rem;
         box-shadow: 0 0 0 100vmax #1c133280;
+        overflow:visible;
 
     }
 
     .nav.visible {
         opacity: 1;
         visibility: visible;
+        
     }
 
     .nav-list {

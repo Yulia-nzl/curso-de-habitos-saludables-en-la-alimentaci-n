@@ -78,13 +78,15 @@ div nav ol {
     background-color: white;
 
    }
-
+   .nav i {
+    color:white;
+    display: none;
+    
+}
 
 
 @media(max-width: 800px) {
-    div nav ol li {
-        display: none;   
-    }
+   
 
     .menu-mobile {
         display: flex;
@@ -103,7 +105,43 @@ div nav ol {
     nav {
         display: none;
     }
+    
+    .nav {
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position:absolute;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background-color: #512da8;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax #1c133280;
 
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+       
+    }
+
+    .nav-list li {
+        padding-bottom: 3px;
+    }
+    
+    .nav i {
+        display: flex;
+        
+    }
 
 
     

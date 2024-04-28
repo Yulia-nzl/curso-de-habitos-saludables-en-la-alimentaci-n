@@ -7,6 +7,7 @@ body{
     width: 100%;
     background-color:#607d88 ;
     text-align: center;
+    
    
 }
 div nav ol {
@@ -32,28 +33,30 @@ div nav ol {
 .menu-mobile {
     display: none;
 }
-@media(max-width: 800px)  {
-.menu-mobile {
-    display: flex;
-    margin-left: 10px;
-    margin: 10px;
-}
-div nav ol li{
+
+.nav i {
+    color:white;
     display: none;
-     
+    
 }
-nav{
-    display: none;
-}
-}
+
 h1{
     text-align: center;
     margin: 70px;
     font-size: 40px;
     font-family: students;
 }
-p{
+
+p {
+    padding: 10px;
+}
+
+.texto {
     font-size: 20px;
+    padding: 10px;
+    border: 2px solid #757575;
+    width: 600px;
+    margin-top: 20px;
 }
 .container {
     display: flex;
@@ -66,15 +69,18 @@ button{
 
    width: 150px;
    height: 75px;
- background-color: #512da8;
- border-radius: 25%;
- margin-top: 50px;
- margin-bottom: 50px;
+   background-color: #512da8;
+   border-radius: 25%;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
+
 button:hover{
     color: aquamarine;
     background-color: blueviolet;
 }
+
+
 button a{
 
     font-size: 30px;
@@ -82,8 +88,67 @@ button a{
     color: white;
 }
 
+@media(max-width: 800px)  {
+.menu-mobile {
+    display: flex;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+nav{
+    display: none;
+}
+
+.nav {
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position:absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: #512da8;
+    padding: 1rem;
+    box-shadow: 0 0 0 100vmax #1c133280;
+
+}
+
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    align-items: end;
+}
+
+.nav-list {
+    flex-direction: column;
+    align-items: end;
+   
+}
+
+.nav-list li {
+    padding-bottom: 3px;
+}
+
+.nav i {
+    display: flex;
+    
+}
+
+.imagen {
+    width: 300px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
 @font-face{
     font-family: students;
     src: url(C:\Users\34654\Documents\GitHub\curso-de-habitos-saludables-en-la-alimentaci-n\the_students_teacher\students.ttf);
     
+}
 }
