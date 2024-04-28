@@ -53,9 +53,6 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: solid 2px #8c75c4;
-    border-top:#8c75c4 dotted;
-    border-radius: 5px;
     margin: 190px;
     margin-top: 30px;
     padding-top: 50px;

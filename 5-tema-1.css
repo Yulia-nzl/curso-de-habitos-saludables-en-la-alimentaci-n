@@ -68,8 +68,6 @@ div nav ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
@@ -77,15 +75,10 @@ div nav ol {
 
 
 .texto {
-    border: 2px solid #512da8;
-    height: 360px;
-    width: 530px;
-    overflow-y:scroll;
     padding: 12px;
     border-radius: 2px;
     align-items:center;
     margin-top: 20px;
-    scrollbar-color: #757575 #512da8;
 }
 
 .menu-mobile {

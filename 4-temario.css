@@ -46,6 +46,8 @@ h1{
 }
 p{
     font-size: 25px;
+    margin-top: 30px;
+    padding: 20px;
 }
 .container{
     display: flex;
@@ -83,22 +85,6 @@ button:hover{
     border: solid 2px #512da8;
     border-radius: 10px;
 }
-
-.buttons {
-    border: 2px solid #512da8;
-    border-style:dotted;
-
-}
-
-p {
-    margin-top: 30px;
-    padding: 20px;
-}
-
-
-
-
-
 @media(max-width: 800px) {
     .menu-mobile {
           display: flex;

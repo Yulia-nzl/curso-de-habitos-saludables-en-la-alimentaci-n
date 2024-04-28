@@ -46,9 +46,6 @@ h1{
     font-size: 40px;
     font-family: students;
     padding: 10px;
-    border: 7px solid #512da8;
-    border-radius: 5px;
-    
 }
 
 p {
@@ -158,7 +155,7 @@ nav{
 }
 
 .texto {
-    width: 400px;
+    width: 330px;
 }
 
 @font-face{
