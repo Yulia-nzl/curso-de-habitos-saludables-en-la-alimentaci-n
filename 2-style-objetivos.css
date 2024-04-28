@@ -18,8 +18,6 @@
 body{
     background-image: url(./assets/deep-purple-curve-background-premium-vector.jpg);
     
-
-
 }
 
 /* barra nav */
@@ -53,7 +51,7 @@ div nav ol {
 
 
 #conteItemsCarrusel {
-    
+    width: 100%;
     height: 200px;
     overflow: hidden;
     display: flex;
@@ -61,7 +59,7 @@ div nav ol {
 }
 
 .itemCarrusel {
-    
+    width: 100%;
     height: 200px;
     position: relative;
     display: flex;
@@ -69,6 +67,7 @@ div nav ol {
 }
 
 .tarjetaCarrusel {
+    width: 100%;
     height: 100%;
     display: flex;
 
@@ -234,6 +233,22 @@ p {
     .nav i {
         display: flex;
     }
+
+    p {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+    }
+
+    .itemCarrusel {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    
    
 
 }

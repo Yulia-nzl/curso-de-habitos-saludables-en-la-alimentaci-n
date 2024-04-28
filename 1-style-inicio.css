@@ -45,6 +45,21 @@ img {
     margin-bottom: 40px;
 }
 
+.container a {
+    animation: moves 2s ;
+    
+}
+
+@keyframes moves {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
+
 
 /* fin barra nav */
 
