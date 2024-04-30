@@ -93,7 +93,7 @@ h1{
    margin-left: 10px;
    margin-top: 60px;
    font-size: 20px;
-   background-color: #9d46ee;
+   background-color: #512da8;
    text-decoration: none;
    
    
@@ -103,7 +103,7 @@ h1{
     
 }
 .enviar a:hover{
-    background-color:#512da8;
+    background-color: #673ab7;
     color: wheat;
 
 }
@@ -115,7 +115,7 @@ h1{
 }
 
 .enviar:hover{
-   background-color:#512da8;
+   background-color:#673ab7;
    color: wheat;
 }
 

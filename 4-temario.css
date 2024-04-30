@@ -22,7 +22,7 @@ div nav ol {
 
  ol li a {
     display: flex;
-    color: azure;
+    color: rgb(240, 255, 255);
     text-decoration: none;
     flex-wrap: wrap;
     
@@ -71,7 +71,7 @@ button a{
     text-decoration: none;
 }
 button:hover{
-    background-color: #3e11a7;
+    background-color: #673ab7;
 }
 
 .container {

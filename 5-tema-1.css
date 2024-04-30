@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background-color:#607d88 ;
+    background: color #607d8b; ;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ div nav ol {
 
    button:hover{
     color: aquamarine;
-    background-color: blueviolet;
+    background-color:  #673ab7;
 }
 
    button a{

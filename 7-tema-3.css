@@ -111,7 +111,7 @@ button{
 }
 button:hover{
     color: aquamarine;
-    background-color: blueviolet;
+    background-color:  #673ab7;
 }
 button a{
 
@@ -195,7 +195,7 @@ h1 {
 
 button:hover{
     color: aquamarine;
-    background-color: blueviolet;
+    background-color:  #673ab7;
 }
 
 }
