@@ -121,11 +121,11 @@ h1{
         opacity: 0;
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: start;
         gap: 1rem;
         position:absolute;
         top:0;
-        right: 0;
+        left: 0;
         bottom: 0;
         background-color: #512da8;
         padding: 1rem;
@@ -140,7 +140,7 @@ h1{
     
     .nav-list {
         flex-direction: column;
-        align-items: end;
+        align-items: start;
        
     }
     
