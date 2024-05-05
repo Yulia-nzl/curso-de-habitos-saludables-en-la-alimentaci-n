@@ -49,25 +49,25 @@ div nav ol {
     height: 550px;
 }
 .slider{
-    background-image: url(IMG-6.jpg);
+    background-image: url(./assets/7-tema-3/IMG-6.jpg);
     background-size: cover;
     animation: animate 12s infinite;
 }
 @keyframes animate{
     25% {
-        background-image: url(IMG-6.jpg);
+        background-image: url(./assets/7-tema-3/IMG-6.jpg);
         background-size: cover;
     }
     50% {
-        background-image: url(img-22.jpeg);
+        background-image: url(./assets/7-tema-3/img-22.jpeg);
         background-size: cover;
     }
     75% {
-        background-image: url(img-23.jpeg);
+        background-image: url(./assets/7-tema-3/img-23.jpeg);
         background-size: cover;
     }
     100% {
-        background-image: url(img-24.jpeg);
+        background-image: url(./assets/7-tema-3/img-24.jpeg);
         background-size: cover;
     }
 }
